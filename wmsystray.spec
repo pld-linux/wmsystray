@@ -8,7 +8,7 @@ Group:		X11/Window Manager/Tools
 Source0:	http://kai.vm.bytemark.co.uk/~arashi/wmsystray/release/%{name}-%{version}.tar.gz
 # Source0-md5:	6c251428d1d4ab563fd8d38ac7afb43d
 URL:		http://kai.vm.bytemark.co.uk/~arashi/wmsystray/
-#BuildRequires:	-
+BuildRequires:	XFree86-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -19,7 +19,14 @@ enable GAIM's System Tray Icon plugin, wmsystray will display GAIM's
 systray icon. Its intended use is as a Window Maker dock app, though it
 will run in other window managers as well.
 
-#%description -l pl
+%description -l pl
+wmsystray dostarcza zasobnik systemowy kompatybilny ze specyfikacj±
+Protoko³u Zasobnika Systemowego (System Tray Protocol) ze strony
+freesktop.org. Zasadniczo udostêpnia on zasobnik systemowy pozwalaj±cy
+innym programom na pokazywanie na nim swoich ikon. Dla przyk³adu, je¶li
+uaktywnisz wtyczkê Zasobnika Systemowego GAIMa, wmsystray wyswietli
+ikonê GAIMa. wmsystray zosta³ stworzony jako aplikacja dokuj±ca Window
+Makera, jednak mo¿e byæ uruchamiana w innych zarz±dcach okien.
 
 %prep
 %setup -q 
