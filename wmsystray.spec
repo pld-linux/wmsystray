@@ -33,7 +33,9 @@ zarz±dcach okien.
 %setup -q 
 
 %build
-%{__make}
+%{__make} \
+	CC="%{__cc}" \
+	CFLAGS="%{rpmcflags} -I/usr/X11R6/include -I../xembed -Wall"
 
 %install
 rm -rf $RPM_BUILD_ROOT
