@@ -3,7 +3,7 @@ Summary(pl):	Dock App Window Makera udostêpniaj±cy zasobnik systemowy
 Name:		wmsystray
 Version:	0.1.1
 Release:	0.1
-License:	GPL	
+License:	GPL
 Group:		X11/Window Manager/Tools
 Source0:	http://kai.vm.bytemark.co.uk/~arashi/wmsystray/release/%{name}-%{version}.tar.bz2
 # Source0-md5:	398cbc1139d53dbf65c00010bf2297fb
