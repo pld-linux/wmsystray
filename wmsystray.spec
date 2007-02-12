@@ -1,5 +1,5 @@
 Summary:	Window Maker dock app that provides system tray
-Summary(pl.UTF-8):   Dock App Window Makera udostępniający zasobnik systemowy
+Summary(pl.UTF-8):	Dock App Window Makera udostępniający zasobnik systemowy
 Name:		wmsystray
 Version:	0.1.1
 Release:	0.1
