@@ -1,5 +1,5 @@
 Summary:	Window Maker dock app that provides system tray
-Summary(pl):	Dock App Window Makera udostêpniaj±cy zasobnik systemowy
+Summary(pl.UTF-8):   Dock App Window Makera udostÄ™pniajÄ…cy zasobnik systemowy
 Name:		wmsystray
 Version:	0.1.1
 Release:	0.1
@@ -19,15 +19,15 @@ you enable GAIM's System Tray Icon plugin, wmsystray will display
 GAIM's systray icon. Its intended use is as a Window Maker dock app,
 though it will run in other window managers as well.
 
-%description -l pl
-wmsystray dostarcza zasobnik systemowy kompatybilny ze specyfikacj±
-Protoko³u Zasobnika Systemowego (System Tray Protocol) ze strony
-freesktop.org. Zasadniczo udostêpnia on zasobnik systemowy pozwalaj±cy
-innym programom na pokazywanie na nim swoich ikon. Dla przyk³adu,
-je¶li uaktywnisz wtyczkê Zasobnika Systemowego GAIMa, wmsystray
-wyswietli ikonê GAIMa. wmsystray zosta³ stworzony jako aplikacja
-dokuj±ca Window Makera, jednak mo¿e byæ uruchamiana w innych
-zarz±dcach okien.
+%description -l pl.UTF-8
+wmsystray dostarcza zasobnik systemowy kompatybilny ze specyfikacjÄ…
+ProtokoÅ‚u Zasobnika Systemowego (System Tray Protocol) ze strony
+freesktop.org. Zasadniczo udostÄ™pnia on zasobnik systemowy pozwalajÄ…cy
+innym programom na pokazywanie na nim swoich ikon. Dla przykÅ‚adu,
+jeÅ›li uaktywnisz wtyczkÄ™ Zasobnika Systemowego GAIMa, wmsystray
+wyswietli ikonÄ™ GAIMa. wmsystray zostaÅ‚ stworzony jako aplikacja
+dokujÄ…ca Window Makera, jednak moÅ¼e byÄ‡ uruchamiana w innych
+zarzÄ…dcach okien.
 
 %prep
 %setup -q 
